@@ -23,8 +23,6 @@ function keepGoing(array, changeValue, skipValue){
 }
 
 function findBy(array, findFn){
-  debugger;
-  var test=findFn()
   var found
   for(var i=0; i<array.length; i++){
     if(findFn(array[i])){
